@@ -1,0 +1,36 @@
+# --- C++ / RAD Studio / C++ Builder Specific ---
+# Compilados y Binarios
+*.exe
+*.dll
+*.o
+*.obj
+*.tds
+*.dcu
+*.~*
+*.stat
+*.eth
+
+# Carpetas de salida de RAD Studio
+__history/
+__recovery/
+Win32/
+Win64/
+Debug/
+Release/
+
+# Archivos de configuración local del usuario
+*.local
+*.identcache
+*.projdata
+*.tvsconfig
+*.dsk
+
+# --- OS Specific ---
+.DS_Store
+Thumbs.db
+
+# --- Project Specific ---
+# Si quieres que los usuarios generen sus propios archivos de texto
+# puedes ignorar los .txt, pero si son necesarios para que el programa
+# no de error al iniciar, NO los incluyas aquí.
+# test.txt
