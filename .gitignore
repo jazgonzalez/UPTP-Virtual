@@ -1,0 +1,14 @@
+# compilation folders
+Win32/
+Win64/
+__history/
+__recovery/
+
+# temporal files
+*.local
+*.identcache
+*.tvsconfig
+*.stat
+*.tds
+*.dsk
+*.txt

@@ -1,0 +1,88 @@
+object _loginFormProfessor: T_loginFormProfessor
+  Left = 21
+  Top = 0
+  Caption = 'Login Professor'
+  ClientHeight = 1746256512
+  ClientWidth = -103322656
+  Position = Designed
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  Left = 21
+  DesignerMasterStyle = 0
+  object usernameLabel: TLabel
+    Position.X = 96.000000000000000000
+    Position.Y = 104.000000000000000000
+    Size.Width = 120.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Username'
+    TabOrder = 1
+  end
+  object passwordLabel: TLabel
+    Position.X = 96.000000000000000000
+    Position.Y = 176.000000000000000000
+    Size.Width = 120.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Password'
+    TabOrder = 0
+  end
+  object usernameEdit: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 4
+    Position.X = 248.000000000000000000
+    Position.Y = 104.000000000000000000
+    Size.Width = 145.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    OnChange = usernameEditChange
+  end
+  object passwordEdit: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 3
+    Position.X = 248.000000000000000000
+    Position.Y = 176.000000000000000000
+    Size.Width = 145.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    OnChange = passwordEditChange
+  end
+  object loginButton: TButton
+    Position.X = 184.000000000000000000
+    Position.Y = 256.000000000000000000
+    Size.Width = 113.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 5
+    Text = 'LOGIN'
+    TextSettings.Trimming = None
+    OnClick = loginButtonClick
+  end
+  object registerButton: TButton
+    Position.X = 288.000000000000000000
+    Position.Y = 336.000000000000000000
+    Size.Width = 105.000000000000000000
+    Size.Height = 25.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    Text = 'REGISTER NOW'
+    TextSettings.Trimming = None
+    OnClick = registerButtonClick
+  end
+  object Label1: TLabel
+    Position.X = 200.000000000000000000
+    Position.Y = 48.000000000000000000
+    Text = 'Log into your account'
+    TabOrder = 6
+  end
+  object Label2: TLabel
+    Position.X = 152.000000000000000000
+    Position.Y = 328.000000000000000000
+    Size.Width = 145.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Don'#39't have an account? '
+    TabOrder = 7
+  end
+end

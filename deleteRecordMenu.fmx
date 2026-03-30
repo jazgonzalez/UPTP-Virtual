@@ -1,0 +1,68 @@
+object _deleteRecordMenu: T_deleteRecordMenu
+  Left = 0
+  Top = 0
+  Caption = 'Delete Record'
+  ClientHeight = 389
+  ClientWidth = 535
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object idLabel: TLabel
+    Position.X = 112.000000000000000000
+    Position.Y = 96.000000000000000000
+    Size.Width = 120.000000000000000000
+    Size.Height = 30.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Student ID'
+    TabOrder = 5
+  end
+  object idEdit: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 6
+    Position.X = 264.000000000000000000
+    Position.Y = 96.000000000000000000
+    Size.Width = 153.000000000000000000
+    Size.Height = 30.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object subjectLabel: TLabel
+    Position.X = 112.000000000000000000
+    Position.Y = 152.000000000000000000
+    Size.Width = 120.000000000000000000
+    Size.Height = 30.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Subject'
+    TabOrder = 0
+  end
+  object subjectEdit: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 1
+    Position.X = 264.000000000000000000
+    Position.Y = 152.000000000000000000
+    Size.Width = 153.000000000000000000
+    Size.Height = 30.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object deleteButton: TButton
+    Position.X = 128.000000000000000000
+    Position.Y = 272.000000000000000000
+    Size.Width = 113.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 7
+    Text = 'DELETE'
+    TextSettings.Trimming = None
+  end
+  object backButton: TButton
+    Position.X = 288.000000000000000000
+    Position.Y = 272.000000000000000000
+    Size.Width = 113.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+    Text = 'BACK'
+    TextSettings.Trimming = None
+    OnClick = backButtonClick
+  end
+end
